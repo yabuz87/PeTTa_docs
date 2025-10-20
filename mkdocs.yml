@@ -1,0 +1,55 @@
+site_name: PeTTa Documentation
+site_description: "PeTTa — efficient MeTTa in Prolog. Docs, tutorials, language spec, and contributor guide."
+site_author: "PeTTa contributors"
+repo_url: https://github.com/patham9/PeTTa
+repo_name: PeTTa
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.instant
+    - search.highlight
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Standard Library:
+      - Overview: standard-library/index.md
+      - Arithmetic Functions: standard-library/arithmetic.md
+      - List Operations: standard-library/list-operations.md
+      - Logical Functions: standard-library/logical.md
+      - Comparison: standard-library/comparison.md
+      - Control Flow: standard-library/controlflow.md
+      - PeTTa unsuported MeTTa functions: standard-library/not-working-std-functions.md
+  - FAQ: faq.md
+  - Release Notes: release-notes.md
+
+  - Contributing: contributing.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/patham9/PeTTa
+  generator: false  # This removes the "Made with MkDocs" text
