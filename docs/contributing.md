@@ -1,42 +1,20 @@
-# Contributing to PeTTa
+# Contributing to the PeTTa Docs
 
-Thank you for your interest in contributing to **PeTTa**!  
-This page provides **general guidelines** for contributing, whether it’s code, documentation, or examples.
+Thanks for checking out the **PeTTa simple docs**!  
+This is a working site, and any help is welcome.  
 
----
+How You Can Contribute
 
-## How to Contribute
+- **Fix typos or small errors**.  
+- **Report functions or examples that don’t work**.  
+- **Share workarounds or tips** for unsupported functions.  
+- **Add examples** to make things clearer.  
 
-You can contribute in several ways:
+Pull Requests
 
-- **Documentation:** Fix typos, clarify sections, or add examples.  
-- **Examples:** Add `.metta` files demonstrating features or standard library functions.  
-- **Bug Reports:** Open an issue with clear steps to reproduce the problem.  
-- **Code Improvements:** Suggest or implement enhancements to PeTTa functions.
+- Fork the repo, make your change, and open a PR.  
+- No need to be perfect — small fixes and suggestions are totally fine!  
 
----
+## Thanks!
 
-## General Guidelines
-
-- Be **respectful and collaborative** in discussions.  
-- Provide **clear and concise descriptions** for any changes or issues.  
-- Use **copyable code blocks** in documentation.  
-- Follow consistent formatting in examples and documentation.  
-
----
-
-## Pull Requests (PRs)
-
-- Fork the repository and create a new branch for your changes.  
-- Make your changes and commit with a **descriptive message**.  
-- Push your branch and open a **Pull Request** on GitHub.  
-- Maintainers will review and provide feedback if necessary.  
-
-> Even small contributions like improving documentation or examples are appreciated!
-
----
-
-## Thank You!
-
-Every contribution helps make PeTTa better and easier to use.  
-Your feedback, code, and examples help the community grow. 🚀
+Every little contribution helps make the docs easier to use. 🚀

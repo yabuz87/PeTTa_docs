@@ -107,6 +107,22 @@ list based intersection
 ```metta
 (2 3)
 ```
+### ***8. append*** 
+concatenates two expression( lists)
+```
+ (append $expr1 $expr2 ) 
+ $expr1 : the first list
+ $expr2: the second list
+
+
+```
+```metta
+!(append (1 3 4) (2 4 5 6))
+```
+***output***
+```metta
+(1 3 4 2 4 5 6)
+```
 ## set Operations in PeTTa
 
 ### ***1. union*** 

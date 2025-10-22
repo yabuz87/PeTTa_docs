@@ -12,6 +12,7 @@
 ```
 ```
  ***2. chain***
+ this will be solved soon.
 ```metta
   !(chain (+ 2 4) $x (* $x 3)) 
 ```
@@ -56,26 +57,24 @@
  (unique-atom (1 2 3 4 3 3))
 ```
 ### work around:
-###
+using custom function like this.
 ```metta
+(= (unique-atom ()) ())
+(= (unique-atom $list)
+   (let* 
+         (($tail (cdr-atom $list))
+          ($head (car-atom $list))
+          ($rest (if (memberfast $head $tail)
+                         (unique-atom $tail)
+                           (append ($head) (unique-atom  $tail))
+                     ))
+          )
+          $rest
+   ))
 
 ```
- ***5. cons-atom***
-
-```metta
-    !(cons-atom 3 (6 4 5)) 
-
-```
-***output***
-```metta 
-  [(cons-atom 3 (6 4 5))]
-```
-### work around:
-###
-```metta
-```
- ***6. decons-atom***
-
+### ***5. cons-atom***
+this function is replaced by cons
 ```metta
     !(cons-atom 3 (6 4 5)) 
 
@@ -85,8 +84,25 @@
   (cons-atom 3 (6 4 5))
 ```
 ### work around:
-###
+using cons function instead of cons-atom it works just like cons-atom
 ```metta
+  (cons 3 (6 4 5))
+```
+### ***6. decons-atom***
+the MeTTa decons-atom is replaced by decons function with the same functionality except that in decons (PeTTa version)  the first atom is not embedded in parenthesis.
+```metta
+      !(decons-atom (1 2 3)) ; Returns ((1) (2 3))  MeTTa version
+      !(decons (1 2 3)) ; Returns (1 (2 3))      PeTTa version
+
+```
+***output***
+```metta 
+   !(decons-atom (1 2 3)) ; Returns (decons-atom (1 2 3)) PeTTa version
+```
+### work around:
+use decons function or use a custom function
+```metta
+!(decons (1 2 3)) ; Returns (1 (2 3))      PeTTa version
 ```
 
 
