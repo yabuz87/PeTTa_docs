@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pip install mkdocs mkdocs-material && mkdocs build",
+  "outputDirectory": "site",
+  "framework": null,
+  "installCommand": "apt-get update && apt-get install -y python3-pip"
+}
