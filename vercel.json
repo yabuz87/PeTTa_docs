@@ -1,0 +1,10 @@
+{
+  "builds": [
+    { "src": "mkdocs.yml", "use": "@vercel/static-build", "config": { "distDir": "site" } }
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.10"
+  },
+  "buildCommand": "pip install mkdocs mkdocs-material && mkdocs build",
+  "outputDirectory": "site"
+}
