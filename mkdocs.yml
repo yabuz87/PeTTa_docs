@@ -28,16 +28,13 @@ nav:
   - Getting Started: getting-started.md
   - Standard Library:
       - Overview: standard-library/index.md
-      - Arithmetic Functions: standard-library/arithmetic.md
+      - Higher-order predicates: standard-library/higher-order.md
       - List Operations: standard-library/list-operations.md
       - Logical Functions: standard-library/logical.md
       - Comparison: standard-library/comparison.md
       - Control Flow: standard-library/controlflow.md
-      - PeTTa unsuported MeTTa functions: standard-library/not-working-std-functions.md
-  - FAQ: faq.md
-  - Release Notes: release-notes.md
-
-  - Contributing: contributing.md
+      - python Bindings: standard-library/python-bindings.md
+  - PeTTa unsuported MeTTa functions (Contemporary): standard-library/not-working-std-functions.md
 
 plugins:
   - search

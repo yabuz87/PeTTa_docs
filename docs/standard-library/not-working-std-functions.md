@@ -4,7 +4,7 @@
 ```metta
   !(bind! &myspace (new-space)) 
 ```
-***PeTTa output***
+***output***
 ```metta 
 [(bind! &myspace (new-space))]
 ```
@@ -15,7 +15,7 @@
 ```metta
   !(chain (+ 2 4) $x (* $x 3)) 
 ```
-***PeTTa output***
+***output***
 ```metta 
  ERROR:(main.pl path) Arguments are not sufficiently instantiated
 ```
@@ -26,7 +26,7 @@
 ```metta
    !(if-decons-expr (1 2 3) $h $t (+ $h 1) (.....))
 ```
-***PeTTa output***
+***output***
 ```metta 
  ERROR:(main.pl path) Arguments are not sufficiently instantiated
 ```
@@ -45,5 +45,50 @@
             ))
 
 ```
+ ***4. unique-atom***
+
+```metta
+   !(unique-atom (1 2 3 4 3 3))  
+
+```
+***output***
+```metta 
+ [(unique-atom (1 2 3 4 3 3))]
+```
+### work around:
+###
+```metta
+
+```
+ ***5. cons-atom***
+
+```metta
+    !(cons-atom 3 (6 4 5)) 
+
+```
+***output***
+```metta 
+  [(cons-atom 3 (6 4 5))]
+```
+### work around:
+###
+```metta
+```
+ ***6. decons-atom***
+
+```metta
+    !(cons-atom 3 (6 4 5)) 
+
+```
+***output***
+```metta 
+  [(cons-atom 3 (6 4 5))]
+```
+### work around:
+###
+```metta
+```
+
+
 
 
