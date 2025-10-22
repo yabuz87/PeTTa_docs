@@ -1,4 +1,4 @@
-# control flow
+## control flow
 
 ## if 
 (if (condition) (code to run if condition is true) (code to run if  condition is false))

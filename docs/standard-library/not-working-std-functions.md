@@ -6,7 +6,7 @@
 ```
 ***output***
 ```metta 
-[(bind! &myspace (new-space))]
+(bind! &myspace (new-space))
 ```
 ### work around: 
 ```
@@ -53,7 +53,7 @@
 ```
 ***output***
 ```metta 
- [(unique-atom (1 2 3 4 3 3))]
+ (unique-atom (1 2 3 4 3 3))
 ```
 ### work around:
 ###
@@ -82,7 +82,7 @@
 ```
 ***output***
 ```metta 
-  [(cons-atom 3 (6 4 5))]
+  (cons-atom 3 (6 4 5))
 ```
 ### work around:
 ###

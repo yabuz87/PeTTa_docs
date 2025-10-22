@@ -35,7 +35,7 @@ nav:
       - List Operations: standard-library/list-operations.md
       - Logical Functions: standard-library/logical.md
       - Comparison: standard-library/comparison.md
-      - Control Flow: standard-library/controlflow.md
+      - Control Flow: standard-library/control-flow.md
       - python Bindings: standard-library/python-bindings.md
   - PeTTa unsupported MeTTa functions (Contemporary): standard-library/not-working-std-functions.md
 
