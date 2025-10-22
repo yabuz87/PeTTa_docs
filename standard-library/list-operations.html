@@ -12,26 +12,28 @@
         <meta name="author" content="PeTTa contributors">
       
       
-      
-        <link rel="prev" href="../list-operations/">
-      
-      
-        <link rel="next" href="../not-working-std-functions/">
+        <link rel="canonical" href="https://yabuz87.github.io/PeTTa_simple_docs/standard-library/list-operations.html">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+        <link rel="prev" href="higher-order.html">
+      
+      
+        <link rel="next" href="controlflow.html">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
     
     
       
-        <title>Control Flow - PeTTa Documentation</title>
+        <title>List Operations - PeTTa Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,7 +52,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#control-flow" class="md-skip">
+        <a href="#list-manipulation" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +94,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="PeTTa Documentation" class="md-header__button md-logo" aria-label="PeTTa Documentation" data-md-component="logo">
+    <a href="../index.html" title="PeTTa Documentation" class="md-header__button md-logo" aria-label="PeTTa Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -112,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Control Flow
+              List Operations
             
           </span>
         </div>
@@ -220,7 +222,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="PeTTa Documentation" class="md-nav__button md-logo" aria-label="PeTTa Documentation" data-md-component="logo">
+    <a href="../index.html" title="PeTTa Documentation" class="md-nav__button md-logo" aria-label="PeTTa Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -250,7 +252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   
@@ -272,7 +274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/" class="md-nav__link">
+      <a href="../getting-started.html" class="md-nav__link">
         
   
   
@@ -334,7 +336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -357,81 +359,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../higher-order/" class="md-nav__link">
+      <a href="higher-order.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Higher-order predicates
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../list-operations/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    List Operations
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../logical.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Logical Functions
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../comparison.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Comparison
     
   </span>
   
@@ -455,15 +388,13 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   
   <span class="md-ellipsis">
-    Control Flow
+    List Operations
     
   </span>
   
@@ -471,12 +402,12 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+      <a href="list-operations.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Control Flow
+    List Operations
     
   </span>
   
@@ -489,8 +420,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -499,20 +428,125 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#if" class="md-nav__link">
+  <a href="#list-manipulation" class="md-nav__link">
     <span class="md-ellipsis">
-      if
+      list Manipulation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#case" class="md-nav__link">
+  <a href="#1-excludefast" class="md-nav__link">
     <span class="md-ellipsis">
-      case
+      1. excludefast
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-memberfast" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. memberfast
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-car-atom" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. car-atom
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cdr-atom" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. cdr-atom
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-decons" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. decons
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cons" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. cons
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-is-expr" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. is-expr
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-is-var" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. is-var
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-substract" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. substract
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-instersection" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. instersection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-operations-in-petta" class="md-nav__link">
+    <span class="md-ellipsis">
+      set Operations in PeTTa
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="set Operations in PeTTa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-union" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. union
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -532,7 +566,76 @@
   
   
     <li class="md-nav__item">
-      <a href="../python-bindings.md" class="md-nav__link">
+      <a href="logical.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Logical Functions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="comparison.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comparison
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="controlflow.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Control Flow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="python-bindings.md" class="md-nav__link">
         
   
   
@@ -562,12 +665,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../not-working-std-functions/" class="md-nav__link">
+      <a href="not-working-std-functions.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    PeTTa unsuported MeTTa functions (Contemporary)
+    PeTTa unsupported MeTTa functions (Contemporary)
     
   </span>
   
@@ -594,8 +697,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -604,20 +705,125 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#if" class="md-nav__link">
+  <a href="#list-manipulation" class="md-nav__link">
     <span class="md-ellipsis">
-      if
+      list Manipulation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#case" class="md-nav__link">
+  <a href="#1-excludefast" class="md-nav__link">
     <span class="md-ellipsis">
-      case
+      1. excludefast
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-memberfast" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. memberfast
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-car-atom" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. car-atom
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cdr-atom" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. cdr-atom
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-decons" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. decons
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cons" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. cons
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-is-expr" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. is-expr
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-is-var" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. is-var
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-substract" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. substract
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-instersection" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. instersection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-operations-in-petta" class="md-nav__link">
+    <span class="md-ellipsis">
+      set Operations in PeTTa
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="set Operations in PeTTa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-union" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. union
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -640,28 +846,124 @@
   
 
 
-<h1 id="control-flow">control flow<a class="headerlink" href="#control-flow" title="Permanent link">&para;</a></h1>
-<h2 id="if">if<a class="headerlink" href="#if" title="Permanent link">&para;</a></h2>
-<p>(if (condition) (code to run if condition is true) (code to run if  condition is false))</p>
-<div class="codehilite"><pre><span></span><code><span class="o">!</span><span class="ss">(</span><span class="k">if</span><span class="w"> </span><span class="ss">(</span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="ss">)</span><span class="w"> </span><span class="ss">(</span><span class="mi">3</span><span class="w"> </span><span class="mi">4</span><span class="ss">)</span><span class="w"> </span><span class="ss">(</span><span class="mi">5</span><span class="w"> </span><span class="mi">6</span><span class="ss">))</span>
+  <h1>List Operations</h1>
+
+<h3 id="list-manipulation">list Manipulation<a class="headerlink" href="#list-manipulation" title="Permanent link">&para;</a></h3>
+<h3 id="1-excludefast"><strong><em>1. excludefast</em></strong><a class="headerlink" href="#1-excludefast" title="Permanent link">&para;</a></h3>
+<p>removes all occurence of an atom from the list. if the element is not a member of the list,returns the list itself. </p>
+<div class="codehilite"><pre><span></span><code>!(excludefast 5 (1 4 5 5))
 </code></pre></div>
 
 <p><strong><em>output</em></strong></p>
-<div class="codehilite"><pre><span></span><code><span class="o">[</span><span class="n">true</span><span class="o">]</span>
+<div class="codehilite"><pre><span></span><code>(1 4)
 </code></pre></div>
 
-<h2 id="case">case<a class="headerlink" href="#case" title="Permanent link">&para;</a></h2>
-<p>switchs based on the given variable condition</p>
-<div class="codehilite"><pre><span></span><code>(= (casetest $x)
-   (case $x ((4 42)
-             ($otherpattern 44)
-             ($otherother $45))))
-
-!(casetest 5)
+<div class="codehilite"><pre><span></span><code>!(excludefast 0 (1 4 5 5))
 </code></pre></div>
 
 <p><strong><em>output</em></strong></p>
-<div class="codehilite"><pre><span></span><code><span class="mf">44</span>
+<div class="codehilite"><pre><span></span><code>(1 4 5 5)
+</code></pre></div>
+
+<h3 id="2-memberfast"><strong><em>2. memberfast</em></strong><a class="headerlink" href="#2-memberfast" title="Permanent link">&para;</a></h3>
+<p>checks wether <strong>element</strong> is memebr of the list or not and returns a boolean value.</p>
+<div class="codehilite"><pre><span></span><code>!(memberfast 0 (1 4 5))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>false
+</code></pre></div>
+
+<h3 id="3-car-atom"><strong><em>3. car-atom</em></strong><a class="headerlink" href="#3-car-atom" title="Permanent link">&para;</a></h3>
+<p>returns the first atom from the given list.</p>
+<div class="codehilite"><pre><span></span><code>!(car-atom (1 2 4 3))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code><span class="mf">1</span>
+</code></pre></div>
+
+<h3 id="3-cdr-atom"><strong><em>3. cdr-atom</em></strong><a class="headerlink" href="#3-cdr-atom" title="Permanent link">&para;</a></h3>
+<p>returns the list except   from first atom in the list.</p>
+<div class="codehilite"><pre><span></span><code>!(cdr-atom (1 2 4 3))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>(2 4 3)
+</code></pre></div>
+
+<h3 id="4-decons"><strong><em>4. decons</em></strong><a class="headerlink" href="#4-decons" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code>!(cdr-atom (1 2 4 3))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>(1 (2 4 3))
+</code></pre></div>
+
+<h3 id="5-cons"><strong><em>5. cons</em></strong><a class="headerlink" href="#5-cons" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code>appends the an atom at the first index of the list
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>!(cons 0 (1 2 3))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>(0 1 2 3)
+</code></pre></div>
+
+<h3 id="6-is-expr"><strong><em>6. is-expr</em></strong><a class="headerlink" href="#6-is-expr" title="Permanent link">&para;</a></h3>
+<p>checks wether the input is expression or not and returns a boolean value. expression is anything emebeded in parenthsis.</p>
+<div class="codehilite"><pre><span></span><code>!(is-expr (foo 3))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>true
+</code></pre></div>
+
+<h3 id="7-is-var"><strong><em>7. is-var</em></strong><a class="headerlink" href="#7-is-var" title="Permanent link">&para;</a></h3>
+<p>checks wether the input is variable or not and returns a boolean value.</p>
+<div class="codehilite"><pre><span></span><code><span class="o">!</span><span class="p">(</span><span class="k">is</span><span class="o">-</span><span class="k">var</span><span class="w"> </span><span class="o">$</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>true
+</code></pre></div>
+
+<h3 id="8-substract"><strong><em>8. substract</em></strong><a class="headerlink" href="#8-substract" title="Permanent link">&para;</a></h3>
+<p>list based Subtraction </p>
+<div class="codehilite"><pre><span></span><code>(subtract $pred $list $sub)
+
+params
+$pred:  predicate
+$list: list
+$sub:  list to subtract
+the default predicate is equal (==)
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>!(subtract &gt;= (1 2 3) (2 3))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>(1)
+</code></pre></div>
+
+<h3 id="8-instersection"><strong><em>8. instersection</em></strong><a class="headerlink" href="#8-instersection" title="Permanent link">&para;</a></h3>
+<p>list based intersection </p>
+<div class="codehilite"><pre><span></span><code>!(intersection  (1 2 3 4) (2 3 5))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>(2 3)
+</code></pre></div>
+
+<h2 id="set-operations-in-petta">set Operations in PeTTa<a class="headerlink" href="#set-operations-in-petta" title="Permanent link">&para;</a></h2>
+<h3 id="1-union"><strong><em>1. union</em></strong><a class="headerlink" href="#1-union" title="Permanent link">&para;</a></h3>
+<p>set based onion operation</p>
+<div class="codehilite"><pre><span></span><code>!(union (1) (2 3 4 5))
+</code></pre></div>
+
+<p><strong><em>output</em></strong></p>
+<div class="codehilite"><pre><span></span><code>(1 2 3 4 5)
 </code></pre></div>
 
 
@@ -722,10 +1024,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.instant", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.instant", "search.highlight", "content.code.annotate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>
