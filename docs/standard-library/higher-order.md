@@ -51,7 +51,7 @@ Transforms each element of a flat list individually using a given function, prod
 ```metta
 (2 4 6 8)
 ```
-### ***3. map-flat*** 
+### ***4. map-flat*** 
 Recursively transforms each atomic element of a nested list using a given function, preserving the nested structure, unlike **map-flat** which only works on flat lists.
 ```metta
 (= (double $x) (* $x 2))

@@ -36,7 +36,11 @@ nav:
       - List and Expr Operations: standard-library/list-operations.md
       - Higher-order predicates: standard-library/higher-order.md
       # - python Bindings: standard-library/python-bindings.md
-  - PeTTa unsupported MeTTa functions (Contemporary): standard-library/not-working-std-functions.md
+  - PeTTa unsupported MeTTa functions (Contemporary):
+     - Lists and Expressions: not-working/list.md
+     - Math Operations: not-working/math.md
+     - Error handling: not-working/error-handle.md
+     - General functions: not-working/not-working-std-functions.md
   - Contributing: contributing.md
 
 plugins:

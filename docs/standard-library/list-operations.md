@@ -35,7 +35,7 @@ returns the first atom from the given list.
 ```metta
 1
 ```
-### ***3. cdr-atom*** 
+### ***4. cdr-atom*** 
 returns the list except   from first atom in the list.
 ```metta
 !(cdr-atom (1 2 4 3))
@@ -44,7 +44,7 @@ returns the list except   from first atom in the list.
 ```metta
 (2 4 3)
 ```
-### ***4. decons*** 
+### ***5. decons*** 
 ```metta
 !(cdr-atom (1 2 4 3))
 ```
@@ -52,7 +52,7 @@ returns the list except   from first atom in the list.
 ```metta
 (1 (2 4 3))
 ```
-### ***5. cons*** 
+### ***6. cons*** 
     appends the an atom at the first index of the list
 ```metta
 !(cons 0 (1 2 3))
@@ -61,7 +61,7 @@ returns the list except   from first atom in the list.
 ```metta
 (0 1 2 3)
 ```
-### ***6. is-expr*** 
+### ***7. is-expr*** 
 checks wether the input is expression or not and returns a boolean value. expression is anything emebeded in parenthsis.
 ```metta
 !(is-expr (foo 3))
@@ -70,7 +70,7 @@ checks wether the input is expression or not and returns a boolean value. expres
 ```metta
 true
 ```
-### ***7. is-var***
+### ***8. is-var***
 checks wether the input is variable or not and returns a boolean value.
 ```metta
 !(is-var $x)
@@ -80,7 +80,7 @@ checks wether the input is variable or not and returns a boolean value.
 true
 ```
 
-### ***8. substract*** 
+### ***9. substract*** 
 list based Subtraction 
 ```
 (subtract $pred $list $sub)
@@ -98,7 +98,7 @@ the default predicate is equal (==)
 ```metta
 (1)
 ```
-### ***8. instersection*** 
+### ***10. instersection*** 
 list based intersection 
 ```metta
 !(intersection  (1 2 3 4) (2 3 5))
@@ -107,7 +107,7 @@ list based intersection
 ```metta
 (2 3)
 ```
-### ***8. append*** 
+### ***11. append*** 
 concatenates two expression( lists)
 ```
  (append $expr1 $expr2 ) 

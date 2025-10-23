@@ -1,29 +1,4 @@
-  most of the previous MeTTa/MeTTalog standard library functions work well in PeTTa but some of them are not done yet so it is good to see this document before writing a code in PeTTa to got some intution on std functions.
-
-### ***1. bind!***
-```metta
-  !(bind! &myspace (new-space)) 
-```
-***output***
-```metta 
-(bind! &myspace (new-space))
-```
-**work around:**
-```
-```
- ***2. chain***
- this will be solved soon.
-```metta
-  !(chain (+ 2 4) $x (* $x 3)) 
-```
-***output***
-```metta 
- ERROR:(main.pl path) Arguments are not sufficiently instantiated
-```
-### work around:
-```
-```
-### ***3. if-decons-expr***
+### ***1. if-decons-expr***
 ```metta
    !(if-decons-expr (1 2 3) $h $t (+ $h 1) (.....))
 ```
@@ -46,7 +21,7 @@
             ))
 
 ```
-### ***4. unique-atom***
+### ***2. unique-atom***
 
 ```metta
    !(unique-atom (1 2 3 4 3 3))  
@@ -73,7 +48,7 @@ using custom function like this.
    ))
 
 ```
-### ***5. cons-atom***
+### ***3. cons-atom***
 this function is replaced by cons
 ```metta
     !(cons-atom 3 (6 4 5)) 
@@ -88,7 +63,7 @@ using cons function instead of cons-atom it works just like cons-atom
 ```metta
   (cons 3 (6 4 5))
 ```
-### ***6. decons-atom***
+### ***4. decons-atom***
 the MeTTa decons-atom is replaced by decons function with the same functionality except that in decons (PeTTa version)  the first atom is not embedded in parenthesis.
 ```metta
       !(decons-atom (1 2 3)) ; Returns ((1) (2 3))  MeTTa version
@@ -104,7 +79,33 @@ use decons function or use a custom function
 ```metta
 !(decons (1 2 3)) ; Returns (1 (2 3))      PeTTa version
 ```
+### ***5. size-atom***
 
+```metta
+    !(size-atom (6 4 5)) 
+```
+### work around:
 
+```metta
 
+```
+### ***5. size-atom***
 
+```metta
+    !(size-atom (6 4 5)) 
+```
+### work around:
+
+```metta
+
+```
+### ***5. index-atom***
+
+```metta
+    !(index-atom (6 4 5)) 
+```
+### work around:
+using a custom function
+```metta
+
+```
