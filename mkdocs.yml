@@ -51,5 +51,5 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/patham9/PeTTa
+      link: https://github.com/yabuz87/PeTTa_docs
   generator: false  # Removes "Made with MkDocs" text

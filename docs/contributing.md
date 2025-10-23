@@ -14,6 +14,8 @@ Pull Requests
 
 - Fork the repo, make your change, and open a PR.  
 - No need to be perfect — small fixes and suggestions are totally fine!  
+- Visit the [PeTTa docs](https://github.com/yabuz87/PeTTa_docs).
+
 
 ## Thanks!
 
