@@ -1,6 +1,6 @@
 # PeTTa — Documentation (Beta)
 
-Welcome! PeTTa is an efficient MeTTa implementation in Prolog. This documentation provides quickstart instructions, language specification, tutorials, examples, and contribution guidelines.
+Welcome! PeTTa (prolog type talk) is an efficient MeTTa implementation in Prolog. This documentation provides quickstart instructions, language specification, tutorials, examples, and contribution guidelines.
 
 ## Quick start
 1. See **Getting Started** for installation.
