@@ -1,6 +1,6 @@
   most of the previous MeTTa/MeTTalog standard library functions work well in PeTTa but some of them are not done yet so it is good to see this document before writing a code in PeTTa to got some intution on std functions.
 
- ***1. bind!***
+### ***1. bind!***
 ```metta
   !(bind! &myspace (new-space)) 
 ```
@@ -8,7 +8,7 @@
 ```metta 
 (bind! &myspace (new-space))
 ```
-### work around: 
+**work around:**
 ```
 ```
  ***2. chain***
@@ -23,7 +23,7 @@
 ### work around:
 ```
 ```
- ***3. if-decons-expr***
+### ***3. if-decons-expr***
 ```metta
    !(if-decons-expr (1 2 3) $h $t (+ $h 1) (.....))
 ```
@@ -46,7 +46,7 @@
             ))
 
 ```
- ***4. unique-atom***
+### ***4. unique-atom***
 
 ```metta
    !(unique-atom (1 2 3 4 3 3))  

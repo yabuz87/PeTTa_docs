@@ -59,6 +59,55 @@ $val: evaluation after binding.
 ```metta
 7
 ```
+### 4. let*
+multiple bindings at once, sequentially.
+```
+(let ($vars) $val)
+params: 
+$vars: one or more variables with their bindings.
+$val: evaluation after binding.
+```
+```metta 
+(let* (($x 5) 
+      ($y 2))
+      (+ $x $y)
+)
+```
+***output***
+```metta
+7
+```
+### 5. println!
+consoles/prints the output
+
+```metta 
+!(println! (hello world))
+```
+***output***
+```metta
+(hello world)
+```
+### 6. readln!
+Reads text input from the user via the console/keyboard
+
+```metta 
+!(let $x (readln!) (println! $x))
+```
+***output***
+```metta
+outputs the user input text
+```
+### 7. trace!
+prints intermediate values during execution
+
+```metta 
+!(trace! "Adding one and two!" (+ 1 2))
+```
+***output***
+```metta
+Adding one and two!
+(3)
+```
 
 ## type checking in PeTTa
 ### ***1. get-metatype***
