@@ -31,11 +31,11 @@ nav:
   - Getting Started: getting-started.md
   - Standard Library:
       - Overview: standard-library/index.md
-      # - Arthimetic & Comparison: standard-library/arithmetic.md
+      - Arthimetic & Comparison: standard-library/arithmetic.md
       - Control Flow: standard-library/control-flow.md
       - List and Expr Operations: standard-library/list-operations.md
       - Higher-order predicates: standard-library/higher-order.md
-      # - python Bindings: standard-library/python-bindings.md
+      - python Bindings: standard-library/python.md
   - PeTTa unsupported MeTTa functions (Contemporary):
      - Lists and Expressions: not-working/list.md
      - Math Operations: not-working/math.md

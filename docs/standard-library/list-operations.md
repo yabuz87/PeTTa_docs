@@ -134,3 +134,31 @@ set based onion operation
 ```metta
 (1 2 3 4 5)
 ```
+## non-determinstic Computation.
+### ***1. superpose*** 
+turns a tuple into a nondeterministic result
+```
+params:
+tuple to be converted.
+```
+```metta
+!(superpose (A B C))
+```
+***output***
+```metta
+(1 2 3 4 5)
+```
+### ***1. collapse*** 
+Converts a nondeterministic result into a tuple
+```
+params:
+Atom: Atom which will be evaluated.
+```
+```metta
+!(superpose (A B C))
+```
+***output***
+```metta
+!(collapse (superpose (A B C)))
+```
+
