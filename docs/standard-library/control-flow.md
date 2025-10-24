@@ -59,24 +59,6 @@ $val: evaluation after binding.
 ```metta
 7
 ```
-### 4. let*
-multiple bindings at once, sequentially.
-```
-(let ($vars) $val)
-params: 
-$vars: one or more variables with their bindings.
-$val: evaluation after binding.
-```
-```metta 
-(let* (($x 5) 
-      ($y 2))
-      (+ $x $y)
-)
-```
-***output***
-```metta
-7
-```
 ### 5. println!
 consoles/prints the output
 
