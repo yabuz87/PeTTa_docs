@@ -1,4 +1,4 @@
-## arithmetic and comparsion
+## comparisons
 
 ### ***1. assertEqual***
  Compares (sets of) results of evaluation of two expressions.
@@ -64,7 +64,7 @@ greater than or equal
 ```metta
 false
 ```
-### ***1.all arithmetic Operations***
+### ***4.all arithmetic Operations***
 operations
 ```metta
 !(+ 2 3)

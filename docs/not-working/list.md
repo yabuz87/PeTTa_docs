@@ -89,7 +89,7 @@ use decons function or use a custom function
 ```metta
 
 ```
-### ***5. size-atom***
+### ***6. size-atom***
 
 ```metta
     !(size-atom (6 4 5)) 
@@ -99,7 +99,7 @@ use decons function or use a custom function
 ```metta
 
 ```
-### ***5. index-atom***
+### ***7. index-atom***
 
 ```metta
     !(index-atom (6 4 5)) 
