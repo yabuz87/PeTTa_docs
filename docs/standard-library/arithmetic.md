@@ -100,7 +100,7 @@ operations
 ```metta
 3
 ```
-### ***6. exp***
+### ***7. exp***
 Returns the natural exponential value of x, computed as 
 𝑒^𝑥
 ,where e is the base of the natural logarithm.
