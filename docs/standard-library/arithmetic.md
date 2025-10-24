@@ -80,3 +80,35 @@ operations
 (6)
 (0.6666666666666666)
 ```
+### ***5. min***
+ returns minimum of two atoms
+```metta
+!(min 2 3)
+```
+**output**
+
+```metta
+2
+```
+### ***6. max***
+ returns maximum of two atoms
+```metta
+!(max 2 3)
+```
+**output**
+
+```metta
+3
+```
+### ***6. exp***
+Returns the natural exponential value of x, computed as 
+𝑒^𝑥
+,where e is the base of the natural logarithm.
+```metta
+!(exp 2)
+```
+**output**
+
+```metta
+(7.38905609893065)
+```
