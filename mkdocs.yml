@@ -35,12 +35,13 @@ nav:
       - Control Flow: standard-library/control-flow.md
       - List and Expr Operations: standard-library/list-operations.md
       - Higher-order predicates: standard-library/higher-order.md
+      - space manipulation: standard-library/space.md
       - python Bindings: standard-library/python.md
-  - PeTTa unsupported MeTTa functions (Contemporary):
-     - Lists and Expressions: not-working/list.md
-     - Math Operations: not-working/math.md
-     - Error handling: not-working/error-handle.md
-     - General functions: not-working/not-working-std-functions.md
+  # - PeTTa unsupported MeTTa functions (Contemporary):
+  #    - Lists and Expressions: not-working/list.md
+  #    - Math Operations: not-working/math.md
+  #    - Error handling: not-working/error-handle.md
+  #    - General functions: not-working/not-working-std-functions.md
   - Contributing: contributing.md
 
 plugins:
