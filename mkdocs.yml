@@ -33,11 +33,15 @@ nav:
       - Overview: standard-library/index.md
       - Arthimetic & Comparison: standard-library/arithmetic.md
       - Control Flow: standard-library/control-flow.md
-      - List and Expr Operations: standard-library/list-operations.md
+      - Lists and Expr Operations: standard-library/list-operations.md
       - Higher-order predicates: standard-library/higher-order.md
       - space manipulation: standard-library/space.md
       - python Bindings: standard-library/python.md
-  - what is new in PeTTa ?: standard-library/new-petta.md
+  - what is new in PeTTa ?:
+      - Lists and Expressions: standard-library/new/list.md
+      - Python Binding: standard-library/new/py.md
+      - Space Manipulation: standard-library/new/space.md
+      - MORK: standard-library/new/mork.md
   # - PeTTa unsupported MeTTa functions (Contemporary):
   #    - Lists and Expressions: not-working/list.md
   #    - Math Operations: not-working/math.md
