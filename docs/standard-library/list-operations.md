@@ -1,9 +1,9 @@
 ### list Manipulation
 
-### ***1. excludefast*** 
+### ***1. exclude-item*** 
  removes all occurence of an atom from the list. if the element is not a member of the list,returns the list itself. 
 ```metta
-!(excludefast 5 (1 4 5 5))
+!(exclude-item 5 (1 4 5 5))
 ```
 ***output***
 ```metta
@@ -17,10 +17,10 @@
 (1 4 5 5)
 ```
 
-### ***2. memberfast*** 
+### ***2. is-member*** 
 checks wether **element** is memebr of the list or not and returns a boolean value.
 ```metta
-!(memberfast 0 (1 4 5))
+!(is-member 0 (1 4 5))
 ```
 ***output***
 ```metta
