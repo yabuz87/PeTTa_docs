@@ -37,6 +37,7 @@ nav:
       - Higher-order predicates: standard-library/higher-order.md
       - space manipulation: standard-library/space.md
       - python Bindings: standard-library/python.md
+  - what is new in PeTTa ?: standard-library/new-petta.md
   # - PeTTa unsupported MeTTa functions (Contemporary):
   #    - Lists and Expressions: not-working/list.md
   #    - Math Operations: not-working/math.md
