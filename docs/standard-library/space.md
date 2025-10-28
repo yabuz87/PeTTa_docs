@@ -59,3 +59,23 @@ removes the occurence of that pattern from the knowledge base of that space.
 ```metta
 ()
 ```
+### ***5. cut***
+only cut out the first output from the all the patterns from the specified space.
+```
+!(match-single &self ($x $y) ($x $y))
+```
+```metta
+(foo 1)
+(foo 2)
+
+(= (match-single $space $pat $ret)
+   (let* (($x (match $space $pat $ret))
+          ($temp (cut)))
+         $x))
+!(match-single &self ($x $y) ($x $y))
+```
+
+***output***
+```metta
+((foo 1))
+```
